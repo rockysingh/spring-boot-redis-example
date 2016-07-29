@@ -5,8 +5,6 @@ import com.rockysingh.cache.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-
-import java.io.Serializable;
 import java.util.List;
 
 @RestController
