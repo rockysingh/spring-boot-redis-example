@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.rockysingh.cache</groupId>
-	<artifactId>spring-boot-ehcache-example</artifactId>
+	<artifactId>spring-boot-redis-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 

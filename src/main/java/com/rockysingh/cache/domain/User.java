@@ -1,11 +1,6 @@
 package com.rockysingh.cache.domain;
 
-import com.fasterxml.jackson.annotation.JacksonInject;
-import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Getter;
-import lombok.Setter;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.validation.constraints.Size;
@@ -16,6 +11,7 @@ public class User implements Serializable {
 
 
     private static final long serialVersionUID = 1L;
+
     private static long longId = 100;
 
     private String id;
@@ -38,11 +34,9 @@ public class User implements Serializable {
         this.id = generateNextId();
     }
 
-
     public static String generateNextId() {
         return String.valueOf(longId++);
     }
-
 
     public String getId() {
         return id;

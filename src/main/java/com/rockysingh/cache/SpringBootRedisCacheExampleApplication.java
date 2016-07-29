@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-public class SpringBootEhcacheExampleApplication {
+public class SpringBootRedisCacheExampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootEhcacheExampleApplication.class, args);
+		SpringApplication.run(SpringBootRedisCacheExampleApplication.class, args);
 	}
 }
